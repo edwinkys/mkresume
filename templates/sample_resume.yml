@@ -2,6 +2,11 @@ title: John Hallaway
 email: johnhallaway@example.com
 phone: 123-456-7890
 
+styles:
+  font: Poppins
+  accent: 6366f1
+  background: f9fafb
+
 additional_info:
   - icon: fa-solid fa-location-pin
     content: San Francisco, CA

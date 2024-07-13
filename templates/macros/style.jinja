@@ -1,0 +1,12 @@
+{% macro style(font, accent, background) -%}
+  <style>
+    body { 
+      font-family: {{ font or "Avenir" }}, Futura, sans-serif;
+      background-color: #{{ background or "f9fafb" }};
+    }
+
+    h1, h2, h3, h4, h5 {
+      color: #{{ accent or "111827" }};
+    }
+  </style>
+{%- endmacro %}

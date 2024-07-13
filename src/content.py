@@ -1,5 +1,5 @@
 import yaml
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 
 
 class Content:
@@ -19,8 +19,8 @@ class Content:
     expericence: List[Dict[str, str]]
     education: List[Dict[str, str]]
 
-    # Additional.
-    additional_info: List[Dict[str, str]]
+    styles: Optional[Dict[str, Dict[str, str]]]
+    additional_info: Optional[List[Dict[str, str]]]
 
     def __init__(
         self,
@@ -41,7 +41,8 @@ class Content:
         self.education = yml["education"]
 
         # Additional.
-        self.additional_info = yml.get("additional_info", [])
+        self.additional_info = yml.get("additional_info")
+        self.styles = yml.get("styles")
 
     @staticmethod
     def __parse_yml(path: str):
