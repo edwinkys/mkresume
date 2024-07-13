@@ -1,0 +1,52 @@
+title: John Hallaway
+email: johnhallaway@example.com
+phone: 123-456-7890
+
+additional_info:
+  - icon: fa-solid fa-location-pin
+    content: San Francisco, CA
+
+  - icon: fa-brands fa-github
+    content: johnhallaway
+
+experience:
+  - title: Software Engineer
+    company: Example Corp
+    location: San Francisco, CA
+    start_date: Jan 2018
+    end_date: Present
+    description: |
+      - Developed new features for the company's flagship product
+      - Maintained and improved existing codebase
+      - Collaborated with other teams to ensure successful product launches
+
+  - title: Software Engineer Intern
+    company: Example Corp
+    location: San Francisco, CA
+    start_date: Jun 2017
+    end_date: Sep 2017
+    description: |
+      - Assisted with the development of new features
+      - Fixed bugs and improved existing codebase
+      - Worked closely with senior engineers to learn best practices
+
+education:
+  - degree: Bachelor of Science in Computer Science
+    school: University of California, Berkeley
+    location: Berkeley, CA
+    start_date: Aug 2014
+    end_date: May 2018
+    description: |
+      - Relevant coursework: Data Structures, Algorithms, Operating Systems
+      - Graduated with honors
+      - GPA: 3.8
+
+  - degree: High School Diploma
+    school: Example High School
+    location: San Francisco, CA
+    start_date: Aug 2010
+    end_date: May 2014
+    description: |
+      - Graduated in top 10% of class
+      - GPA: 4.0
+      - National Honor Society member
